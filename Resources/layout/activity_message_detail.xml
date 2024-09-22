@@ -24,5 +24,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+    
+    <EditText
+        android:id="@+id/recipientEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipient phone number"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your message"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:layout_marginBottom="8dp"/>
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message"/>
 </LinearLayout>
